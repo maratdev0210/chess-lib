@@ -4,7 +4,7 @@ import {toSquare} from '../rules/toSquare.js';
 
 // add the rules to the game
 // the position is the matrix representation of the board
-export class Rules {
+module.exports = class Rules {
     constructor(position, piece) {
         this.position = position;
         this.piece = piece;

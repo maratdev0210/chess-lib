@@ -3,7 +3,7 @@ import {isUnderCheck} from "../rules/underTheCheck.js";
 import {Board} from "../board/board.js";
 
 // return the list of legal moves
-export class legalMoves {
+module.exports = class legalMoves {
     constructor(position, turn) {
         this.position = position;
         this.turn = turn;
@@ -91,3 +91,4 @@ export class legalMoves {
 
 // position: the current representation of the matrix board 
 // turn: current turn of a player: 'black' || 'white'
+export {legalMoves};

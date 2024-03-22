@@ -2,7 +2,7 @@ import {blackPieces} from "../pieces/black/blackPiece.js";
 import {whitePieces} from "../pieces/white/whitePiece.js";
 import {currentSquare} from "../board/currentSquare.js";
 
-class Board {
+module.exports = class Board {
     constructor(position) {
         this.position = position;
         this.matrix = [];

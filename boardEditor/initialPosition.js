@@ -1,4 +1,4 @@
-export function initialPosition() {
+module.exports =  function initialPosition() {
     let position = [
         {
             piece: 'pawn',
@@ -164,3 +164,5 @@ export function initialPosition() {
     
     return position;
 }
+
+export {initialPosition};
